@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/Alex-CG/udacity-mlapp-docker-k8s/tree/master.svg?style=svg)](https://circleci.com/gh/Alex-CG/udacity-mlapp-docker-k8s/tree/master)
 
 ## Project Overview
 
@@ -48,3 +48,7 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+### Make Predictions
+
+* Run: `./make_prediction.sh`
