@@ -52,3 +52,15 @@ source .devops/bin/activate
 ### Make Predictions
 
 * Run: `./make_prediction.sh`
+
+### Description of the files
+
+1. .circleci/config.yml - Contains the instructions to install and lint Docker and python files 
+2. app.py               - Machine Learning Application
+3. Dockerfile           - Contains instrucions to configure an env to run the app.py application in a port
+4. make_predictions.sh  - File to execute the ML appication
+5. Makefile             - Contains alias for instructions
+6. requirements.txt     - List of libraries for the ML application
+7. run_docker.sh        - Bash file to run the docker container
+8. run_kubernetes.sh    - Instructions to run our application in kubernetes
+9. upload_docker.sh     - Instructions to upload our docker image to DockerHub
